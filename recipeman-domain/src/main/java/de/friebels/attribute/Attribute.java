@@ -2,7 +2,7 @@ package de.friebels.attribute;
 
 public class Attribute<T> {
 	private T value;
-	
+
 	protected Attribute(T value) {
 		super();
 		this.value = value;
@@ -35,6 +35,11 @@ public class Attribute<T> {
 		} else if (!value.equals(other.value))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return getClass().getSimpleName() + " (" + getValue() + ")";
 	}
 
 }
