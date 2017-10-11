@@ -1,0 +1,1 @@
+git config --global http.https://github.com http://dt0a19@J$uu0lcy0@proxy.intdus.retail-sc.com:3128
