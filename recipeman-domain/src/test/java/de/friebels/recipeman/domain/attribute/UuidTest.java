@@ -1,12 +1,13 @@
 package de.friebels.recipeman.domain.attribute;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.UUID;
 
 import org.junit.Test;
 
-import de.friebels.attribute.StringAttribute;
+import de.friebels.domain.attribute.StringAttribute;
 
 public class UuidTest {
 

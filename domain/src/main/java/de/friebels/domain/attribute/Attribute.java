@@ -1,4 +1,4 @@
-package de.friebels.attribute;
+package de.friebels.domain.attribute;
 
 public class Attribute<T> {
 	private T value;

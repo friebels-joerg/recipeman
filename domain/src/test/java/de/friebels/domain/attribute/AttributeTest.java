@@ -1,10 +1,10 @@
-package de.friebels.attribute;
+package de.friebels.domain.attribute;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import de.friebels.recipeman.domain.attribute.Version;
+import de.friebels.domain.attribute.Attribute;
 
 public class AttributeTest {
 	
@@ -18,7 +18,7 @@ public class AttributeTest {
 
 	@Test
 	public void testToStringWithConcreteClass() {
-		Attribute<Integer> sut = Version.fromValue(5);
+		Attribute<Integer> sut = ConcreteAttribute.fromValue(5);
 		String actual = sut.toString();
 		String expected = "Version (5)";
 		assertEquals(expected, actual);

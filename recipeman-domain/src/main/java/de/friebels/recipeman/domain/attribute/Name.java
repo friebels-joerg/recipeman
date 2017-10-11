@@ -1,6 +1,6 @@
 package de.friebels.recipeman.domain.attribute;
 
-import de.friebels.attribute.StringAttribute;
+import de.friebels.domain.attribute.StringAttribute;
 
 public class Name extends StringAttribute{
 

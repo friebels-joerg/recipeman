@@ -2,7 +2,7 @@ package de.friebels.recipeman.domain.attribute;
 
 import java.util.UUID;
 
-import de.friebels.attribute.StringAttribute;
+import de.friebels.domain.attribute.StringAttribute;
 
 public class Uuid extends StringAttribute {
 	

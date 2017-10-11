@@ -1,10 +1,10 @@
-package de.friebels.attribute;
+package de.friebels.domain.attribute;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import de.friebels.attribute.StringAttribute;
+import de.friebels.domain.attribute.StringAttribute;
 
 public class StringAttributeTest {
 

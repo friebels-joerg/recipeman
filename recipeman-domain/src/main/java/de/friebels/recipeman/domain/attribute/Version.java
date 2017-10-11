@@ -1,6 +1,6 @@
 package de.friebels.recipeman.domain.attribute;
 
-import de.friebels.attribute.IntegerAttribute;
+import de.friebels.domain.attribute.IntegerAttribute;
 
 public class Version extends IntegerAttribute {
 	private Version(Integer value) {
